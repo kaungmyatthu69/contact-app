@@ -1,0 +1,16 @@
+.navbar-container{
+  display:flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 10px 30px;
+ div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap:10px;
+   button{
+     padding: 5px;
+   }
+ }
+}
