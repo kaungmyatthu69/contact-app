@@ -1,7 +1,7 @@
 import './table.scss'
 const Table = () => {
     return (
-        <div>
+        <div className='table-container'>
             <table>
                 <thead>
                     <tr>
@@ -16,14 +16,36 @@ const Table = () => {
                     <tr>
                         <td>Kaung</td>
                         <td>25</td>
+                        <td>25</td>
+                        <td>25</td>
+                        <td>
+                            <button>Edit</button>
+                            <button>Delete</button>
+                        </td>
+
                     </tr>
                     <tr>
                         <td>Kaung</td>
-                        <td>26</td>
+                        <td>25</td>
+                        <td>25</td>
+                        <td>25</td>
+
+                        <td>
+                            <button>Edit</button>
+                            <button>Delete</button>
+                        </td>
                     </tr>
                     <tr>
                         <td>Myat</td>
-                        <td>27</td>
+
+                        <td>25</td>
+                        <td>25</td>
+
+                        <td>25</td>
+                        <td>
+                            <button>Edit</button>
+                            <button>Delete</button>
+                        </td>
                     </tr>
                 </tbody>
             </table>

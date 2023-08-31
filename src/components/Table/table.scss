@@ -1,3 +1,24 @@
+.table-container{
+  width: 90%;
+}
 table{
   border: 1px solid white;
+  width: 100%;
+  border-collapse: collapse;
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  td:last-child{
+    display: flex;
+    gap: 10px;
+    color: gray;
+  }
+  tr:nth-child(even) {
+    background-color: gray;
+  }
+
+
+
 }

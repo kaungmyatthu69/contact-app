@@ -1,6 +1,6 @@
 import {createBrowserRouter} from "react-router-dom";
 import Login from "../pages/Login";
-import Register from "../pages/Register";
+import Register from "../pages/register";
 import DefaultLayout from "../layouts/DefaultLayout.tsx";
 import GuestLayout from "../layouts/GuestLayout.tsx";
 import Home from "../pages/Home";

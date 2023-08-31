@@ -1,8 +1,10 @@
 import Table from "../../components/Table";
+import "./home.scss";
 
 const Home = () => {
+
     return (
-        <div>
+        <div className='container'>
             <Table/>
         </div>
     );

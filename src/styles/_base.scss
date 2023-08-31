@@ -1,0 +1,18 @@
+@import "variable";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,800;1,400&display=swap');
+//Reset Style
+*{
+  color: inherit;
+    margin: 0;
+}
+body{
+  font-family: 'Playfair Display', serif;
+  background-color: $background-light;
+  color: $text-light;
+  transition: background-color 0.3s, color 0.3s;
+
+}
+.dark-mode {
+  background-color: $background-dark;
+  color: $text-dark;
+}
